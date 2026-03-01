@@ -1,0 +1,19 @@
+# Cache e artefatti Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambienti virtuali
+.venv/
+venv/
+
+# File locali
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Test/cache
+.pytest_cache/
+.coverage
