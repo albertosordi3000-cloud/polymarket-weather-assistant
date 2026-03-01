@@ -1,0 +1,20 @@
+# Config base del progetto (fase MVP simulato).
+# In questa fase la modalità predefinita resta mock.
+
+data_mode: "mock"  # valori supportati: mock | live (live non ancora implementata)
+
+app:
+  name: "Polymarket Weather Assistant"
+  mode: "manual_trading_only"
+  risk_mode: "conservativo"
+
+ui:
+  refresh_interval_seconds: 20
+  show_top_opportunities: 10
+
+filters:
+  min_confidence_score: 80
+  strong_signal_confidence: 85
+  min_edge_percent: 4
+  preferred_edge_percent: 6
+  max_spread_percent: 1.0

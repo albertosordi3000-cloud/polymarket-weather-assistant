@@ -1,0 +1,6 @@
+# Metadati minimi progetto Python.
+[project]
+name = "polymarket-weather-assistant"
+version = "0.1.0"
+description = "MVP simulato Streamlit per assistente meteo Polymarket"
+requires-python = ">=3.10"

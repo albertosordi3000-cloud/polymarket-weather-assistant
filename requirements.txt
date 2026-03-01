@@ -1,0 +1,3 @@
+# Dipendenze minime per avvio demo Streamlit in locale
+streamlit==1.37.1
+pandas==2.2.2
